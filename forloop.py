@@ -6,7 +6,7 @@ print(l)
 for x in l:
     print(x)
 
-for i in ["quiet" , 12.4 , 986 , 88]:
+for i in ["quiet" , 12.4 , 986 , 88]:   
     print(i)
 
 for i in range(1 , 11):
