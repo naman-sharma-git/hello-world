@@ -1,0 +1,11 @@
+countries = ["india" ,"USA" ,"indonaisa" , "ireland" , "bangladesh" , "nepal" , "UAE" , "srilanka"  ]
+
+counter = 0 
+output = []
+for country in countries:
+    if country.startswith("i"):
+        counter = counter + 1
+        output.append(country)
+
+print(countries)
+print(output)
